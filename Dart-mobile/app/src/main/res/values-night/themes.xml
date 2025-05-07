@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DartMobileApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_regular </item>
+        <item name="android:includeFontPadding">false</item>
+        <!-- Secondary brand color. -->
+
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Default text color (white) -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+
+        <!-- Default text hint color (red) -->
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+</resources>
